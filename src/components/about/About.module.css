@@ -1,0 +1,31 @@
+.about {
+    height: 100vh;
+    background-color: var(--green);
+    overflow: hidden;
+}
+
+.aboutCont {
+    /* height: 100%; */
+    padding-top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* overflow: hidden; */
+    font-size: calc(38px + 2vw);
+    position: relative;
+    gap: 300px;
+    /* background-color: var(--green); */
+}
+
+.aboutCont div {
+    /* position: absolute; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutCont div:not(:first) p:first-child {
+    font-weight: 300;
+}
