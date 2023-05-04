@@ -1,5 +1,5 @@
 .header {
-    height: 99dvh;
+    height: 100vh;
     padding-top: 20px;
 }
 
@@ -50,4 +50,10 @@
 .headerButton:hover {
     background-color: #BBEF4430;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 86vh;
+    }
 }
