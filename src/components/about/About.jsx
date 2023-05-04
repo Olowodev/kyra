@@ -29,6 +29,7 @@ const About = () => {
         <div id='about' className={styles.about}>
             <div id='aboutCont' className={styles.aboutCont}>
                 <div>
+                    <p></p>
                 <p>in 2022</p>
                 </div>
                 <div>

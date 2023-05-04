@@ -20,6 +20,8 @@
     font-size: calc(20px + 4vw);
     line-height: calc(20px + 5vw);
     max-width: 1400px;
+    font-style: italic;
+    font-weight: 500;
 }
 
 .campaignPills {
@@ -34,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5% 40px;
+    padding: 1% 40px;
     border-radius: 60px;
     font-size: 24px;
     /* width: 100%; */

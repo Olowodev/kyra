@@ -6,7 +6,7 @@ const ReviewSection = () => {
     return (
         <div className={styles.reviewSection}>
             <div className={styles.reviewSectionCont}>
-                <div className={styles.reviewSectionHead}><p>trusted by world's top brands</p></div>
+                <div style={{fontStyle: 'italic', fontWeight: '500'}} className={styles.reviewSectionHead}><p>trusted by world's top brands</p></div>
                 {/* <div className={styles.reviewSectionCompanies}>
                     <div>
                         <img />

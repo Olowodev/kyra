@@ -8,10 +8,10 @@ const Header = () => {
             <div className={styles.headerCont}>
                     <img className={styles.headerBg} src="/headerImg.png" />
                 <div className={styles.headerP}>
-                    <p>authentically</p>
-                    <p>connect</p>
-                    <p>with the next</p>
-                    <p>generation</p>
+                    <p style={{fontWeight: '100'}}>authentically</p>
+                    <p style={{fontStyle: 'italic', fontWeight: '500'}}>connect</p>
+                    <p style={{fontWeight: '100'}}>with the next</p>
+                    <p style={{fontStyle: 'italic', fontWeight: '500'}}>generation</p>
                 </div>
                 <a className={styles.headerButton}>
                     sign up today
