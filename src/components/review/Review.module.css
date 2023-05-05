@@ -18,7 +18,7 @@
 .reviewCont p {
     max-width: 300px;
     text-align: center;
-    font-size: calc(12px + 1vw);
+    font-size: calc(12px + .5vw);
 }
 
 @media screen and (max-width: 700px) {
