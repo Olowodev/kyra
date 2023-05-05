@@ -83,11 +83,17 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+html.pin-active {
+  scroll-behavior: auto;
 }
 
 body {
   background-color: #f9f1dd;
   font-size: 16px;
+  /* scroll-behavior: smooth; */
 }
 
 code {

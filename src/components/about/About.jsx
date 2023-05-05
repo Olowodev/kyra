@@ -14,7 +14,9 @@ const About = () => {
                         trigger: '#about',
                         scrub: 1,
                         pin: true,
-                        end: '+=100%'
+                        end: '+=100%',
+                        onEnter: () => document.documentElement.classList.add("pin-active"),
+                        onLeaveBack: () => document.documentElement.classList.remove("pin-active")
                     }
                 }
             );
